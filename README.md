@@ -116,7 +116,7 @@ IoT 개발자 과정 C# 학습 리포지토리
 
 3일차 윈폼 학습 결과
 
-<width="700">
+<img="https://raw.githubusercontent.com/limchaeyeon8/basic-CSharp-2023/main/d3/d3WinApp/wf03_property/wifm1.png" width="700">
     
 #### NOTE3
 - 클래스
