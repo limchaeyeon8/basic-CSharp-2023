@@ -8,11 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace wf11_bookRentalShop_App
+namespace wf11_mdiTest
 {
-    public partial class Form1 : Form
+    public partial class FrmChild2 : Form
     {
-        public Form1()
+        public FrmChild2()
         {
             InitializeComponent();
         }
