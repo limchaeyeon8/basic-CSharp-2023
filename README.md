@@ -2,7 +2,7 @@
 IoT 개발자 과정 C# 학습 리포지토리
 
 ## 1일차
-[note1](https://github.com/limchaeyeon8/basic-CSharp_2023/blob/main/d1/d1_note.md)
+#### [note1](https://github.com/limchaeyeon8/basic-CSharp-2023/blob/main/d1/d1_note.md)
 
 -  C# 기본
     - .NET Framework / .NET 5.0 이후
@@ -11,7 +11,7 @@ IoT 개발자 과정 C# 학습 리포지토리
 
 
 ## 2일차
-[note2](https://github.com/limchaeyeon8/basic-CSharp_2023/blob/main/d2/d2_note.md)
+#### [note2](https://github.com/limchaeyeon8/basic-CSharp_2023/blob/main/d2/d2_note.md)
 
 - C# 기본
     - 기본 문법 (변수, 메소드, 연산자, 제어)
@@ -22,7 +22,7 @@ IoT 개발자 과정 C# 학습 리포지토리
 
 
 ## 3일차
-[note3](https://github.com/limchaeyeon8/basic-CSharp_2023/blob/main/d3/d3_note.md)
+#### [note3](https://github.com/limchaeyeon8/basic-CSharp_2023/blob/main/d3/d3_note.md)
 
 - C# 기본
     - 클래스
@@ -37,7 +37,7 @@ IoT 개발자 과정 C# 학습 리포지토리
     
 
 ## 4일차
-[note4](https://github.com/limchaeyeon8/basic-CSharp_2023/blob/main/d4/d4_note.md)
+#### [note4](https://github.com/limchaeyeon8/basic-CSharp_2023/blob/main/d4/d4_note.md)
 
 - C# 기본
     - 클래스 상속 계속
@@ -48,7 +48,7 @@ IoT 개발자 과정 C# 학습 리포지토리
 
 
 ## 5일차
-[note5](https://github.com/limchaeyeon8/basic-CSharp_2023/blob/main/d5/d5_note.md)
+#### [note5](https://github.com/limchaeyeon8/basic-CSharp_2023/blob/main/d5/d5_note.md)
 
 - C# 기본
     - 인터페이스 / 추상클래스
@@ -61,7 +61,7 @@ IoT 개발자 과정 C# 학습 리포지토리
 
 
 ## 6일차
-[note6](https://github.com/limchaeyeon8/basic-CSharp_2023/blob/main/d6/d6_note.md)
+#### [note6](https://github.com/limchaeyeon8/basic-CSharp_2023/blob/main/d6/d6_note.md)
 
 - C# 기본
     - 컬렉션
@@ -78,7 +78,7 @@ IoT 개발자 과정 C# 학습 리포지토리
 
 
 ## 7일차
-[note7](https://github.com/limchaeyeon8/basic-CSharp_2023/blob/main/d7/d7_note.md)
+#### [note7](https://github.com/limchaeyeon8/basic-CSharp_2023/blob/main/d7/d7_note.md)
 
 - C# 기본
     - 대리자 / 이벤트
@@ -93,7 +93,7 @@ IoT 개발자 과정 C# 학습 리포지토리
 
 ## 8일차 
 <!--
-[note8](https://github.com/limchaeyeon8/basic-CSharp_2023/blob/main/d8/d8_note.md)
+#### [note8](https://github.com/limchaeyeon8/basic-CSharp_2023/blob/main/d8/d8_note.md)
 -->
 - C# 기본
 
