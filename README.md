@@ -91,12 +91,13 @@ IoT 개발자 과정 C# 학습 리포지토리
     - DB 핸들링
     - SDI / MDI
 
+
 ## 8일차 
 <!--
 #### [note8](https://github.com/limchaeyeon8/basic-CSharp-2023/blob/main/d8/d8_note.md)
 -->
 - C# 기본
-
+    - 
 
 - Win App
     - BookRentalShop DB 사용 WinForms 앱개발

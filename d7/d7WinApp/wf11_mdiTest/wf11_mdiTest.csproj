@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{36BA04AB-07AA-4B8D-9A91-A2E5EBB24F9D}</ProjectGuid>
+    <ProjectGuid>{2FB91BEC-5CA7-427F-A38D-1346524061AE}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <RootNamespace>wf11_mdiTest</RootNamespace>
     <AssemblyName>wf11_mdiTest</AssemblyName>
@@ -46,24 +46,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="FrmAbout.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="FrmAbout.Designer.cs">
-      <DependentUpon>FrmAbout.cs</DependentUpon>
-    </Compile>
-    <Compile Include="FrmChild1.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="FrmChild1.Designer.cs">
-      <DependentUpon>FrmChild1.cs</DependentUpon>
-    </Compile>
-    <Compile Include="FrmChild2.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="FrmChild2.Designer.cs">
-      <DependentUpon>FrmChild2.cs</DependentUpon>
-    </Compile>
     <Compile Include="FrmMain.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -72,15 +54,6 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="FrmAbout.resx">
-      <DependentUpon>FrmAbout.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FrmChild1.resx">
-      <DependentUpon>FrmChild1.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FrmChild2.resx">
-      <DependentUpon>FrmChild2.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="FrmMain.resx">
       <DependentUpon>FrmMain.cs</DependentUpon>
     </EmbeddedResource>
@@ -92,6 +65,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -105,6 +79,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\file-normal.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

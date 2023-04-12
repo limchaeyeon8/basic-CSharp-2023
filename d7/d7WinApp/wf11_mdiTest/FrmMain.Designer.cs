@@ -31,11 +31,11 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmMain));
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.파일FToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.도움말HToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.MniForm1 = new System.Windows.Forms.ToolStripMenuItem();
             this.MniForm2 = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripSeparator();
             this.MniExit = new System.Windows.Forms.ToolStripMenuItem();
+            this.도움말HToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.MniAbout = new System.Windows.Forms.ToolStripMenuItem();
             this.statusStrip1 = new System.Windows.Forms.StatusStrip();
             this.toolStripStatusLabel1 = new System.Windows.Forms.ToolStripStatusLabel();
@@ -65,14 +65,6 @@
             this.파일FToolStripMenuItem.Size = new System.Drawing.Size(57, 20);
             this.파일FToolStripMenuItem.Text = "파일(&F)";
             // 
-            // 도움말HToolStripMenuItem
-            // 
-            this.도움말HToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.MniAbout});
-            this.도움말HToolStripMenuItem.Name = "도움말HToolStripMenuItem";
-            this.도움말HToolStripMenuItem.Size = new System.Drawing.Size(72, 20);
-            this.도움말HToolStripMenuItem.Text = "도움말(&H)";
-            // 
             // MniForm1
             // 
             this.MniForm1.Image = ((System.Drawing.Image)(resources.GetObject("MniForm1.Image")));
@@ -101,10 +93,18 @@
             this.MniExit.Text = "끝내기(&X)";
             this.MniExit.Click += new System.EventHandler(this.MniExit_Click);
             // 
+            // 도움말HToolStripMenuItem
+            // 
+            this.도움말HToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.MniAbout});
+            this.도움말HToolStripMenuItem.Name = "도움말HToolStripMenuItem";
+            this.도움말HToolStripMenuItem.Size = new System.Drawing.Size(72, 20);
+            this.도움말HToolStripMenuItem.Text = "도움말(&H)";
+            // 
             // MniAbout
             // 
             this.MniAbout.Name = "MniAbout";
-            this.MniAbout.Size = new System.Drawing.Size(180, 22);
+            this.MniAbout.Size = new System.Drawing.Size(154, 22);
             this.MniAbout.Text = "이 프로그램(&A)";
             this.MniAbout.Click += new System.EventHandler(this.MniAbout_Click);
             // 
