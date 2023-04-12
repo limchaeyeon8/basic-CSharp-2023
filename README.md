@@ -2,7 +2,7 @@
 IoT 개발자 과정 C# 학습 리포지토리
 
 ## 1일차
-#### [note1](https://github.com/limchaeyeon8/basic-CSharp_2023/blob/main/d1/d1_note.md)
+#### [note1](https://github.com/limchaeyeon8/basic-CSharp-2023/blob/main/d1/d1_note.md)
 
 -  C# 기본
     - .NET Framework / .NET 5.0 이후
