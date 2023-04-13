@@ -171,7 +171,7 @@ IoT 개발자 과정 C# 학습 리포지토리
     - @userId, @pswd 파라미터 할당
   
     - 종료확인 메시지
-    '''
+    ```cs
     private void FrmMain_FormClosing(object sender, FormClosingEventArgs e)
         {
             if (MessageBox.Show("종료하시렵니까?", "떼껄룩", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
@@ -180,4 +180,5 @@ IoT 개발자 과정 C# 학습 리포지토리
                 Environment.Exit(0);
             }
             else { e.Cancel = true; }
-    '''
+        }
+    ```
