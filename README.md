@@ -34,6 +34,8 @@ IoT 개발자 과정 C# 학습 리포지토리
 3일차 윈폼 학습 결과
 
 <img src="https://raw.githubusercontent.com/limchaeyeon8/basic-CSharp-2023/main/d3/d3WinApp/wf03_property/wifm1.png" width="700">
+
+<img src="https://github.com/limchaeyeon8/basic-CSharp-2023/blob/main/d3/%EC%86%8D%EC%84%B1%ED%99%95%EC%9D%B8.gif" width="700">
     
 
 ## 4일차
@@ -75,7 +77,7 @@ IoT 개발자 과정 C# 학습 리포지토리
     - DB 핸들링
 
 탐색기
-<img src="https://raw.githubusercontent.com/limchaeyeon8/ .gif" width="500" />
+<img src="https://raw.githubusercontent.com/limchaeyeon8/basic-CSharp-2023/main/d6/expolorer.gif" width="700" />
 
 
 ## 7일차
@@ -106,10 +108,10 @@ IoT 개발자 과정 C# 학습 리포지토리
     - BookRentalShop DB 사용 WinForms 앱개발
 
 메모장
-<img src="https://raw.githubusercontent.com/limchaeyeon8/ .gif" width="500" />
+<img src="https://raw.githubusercontent.com/limchaeyeon8/basic-CSharp-2023/main/d8/memo.gif" width="700" />
 
 Book Rental Shop (WIP)
-<img src="https://raw.githubusercontent.com/limchaeyeon8/ .gif" width="500" />
+<img src="https://raw.githubusercontent.com/limchaeyeon8/basic-CSharp-2023/main/d8/login.gif" width="700" />
 
 
 ## 9일차
