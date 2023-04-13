@@ -1,5 +1,5 @@
 #### NOTE8
-- System.IO 네임스페이스의 클래스
+## System.IO 네임스페이스의 클래스
     - FileInfo, DirectoryInfo 좀 더 씀
     - File, Directory는 구식 방식(기능적인 차이가 많은 건 아님)
 - 상대경로
@@ -7,14 +7,14 @@
     - .. 부모
 - (+) 메소드(로컬) 안에서 받을 타입 모를 때 - var(자동으로 스트링 배열로 반환)
 
-- 특정 경로의 하위 폴더 / 하위 파일 조회
+## 특정 경로의 하위 폴더 / 하위 파일 조회
     - Directory.GetDirectories(); - 지정된 디렉토리에 있는 하위 디렉토리 이름(경로포함) 반환
 
 - 디렉토리 / 파일 생성
     - 경로가 없으면 둘다 생성
     - 경로가 존재하면 파일만 생성
 
-- 스트림(Stream); 데이터가 흐르는 통로
+## 스트림(Stream); 데이터가 흐르는 통로
     - 순차 접근 방식 (ex> 네트워크, 데이터 백업 장치)
     - 임의 접근 방식 (ex> 하드 디스크)
 
@@ -29,7 +29,7 @@
 - 파일 읽으면 무조건 마지막에 Close();
 - StreamWriter()로 파일 생성
 
-- 심플 노트패드 만들기
+# 심플 노트패드 만들기
     - Load / Save
     - Load 파일 경로 출력
     - 파일 전체내용 읽어오기
@@ -42,7 +42,7 @@
     - Multiselect = false; <- 여러파일 선택 안 되도록
 
 
-- Book Rental Shop 앱
+# Book Rental Shop 앱
     - Application.Exit();     // 전체 프로그램 종료
     - Environment.Exit(0);    // 가장 완전하게 프로그램 종료
 
