@@ -51,6 +51,7 @@
             // menuStrip
             // 
             this.menuStrip.BackColor = System.Drawing.Color.CadetBlue;
+            this.menuStrip.Font = new System.Drawing.Font("한컴 말랑말랑 Regular", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.menuStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.fileMenu,
             this.viewMenu,
@@ -58,7 +59,7 @@
             this.menuStrip.Location = new System.Drawing.Point(0, 0);
             this.menuStrip.Name = "menuStrip";
             this.menuStrip.Padding = new System.Windows.Forms.Padding(9, 2, 0, 2);
-            this.menuStrip.Size = new System.Drawing.Size(984, 24);
+            this.menuStrip.Size = new System.Drawing.Size(984, 28);
             this.menuStrip.TabIndex = 0;
             this.menuStrip.Text = "MenuStrip";
             // 
@@ -70,13 +71,13 @@
             this.fileMenu.ForeColor = System.Drawing.Color.LavenderBlush;
             this.fileMenu.ImageTransparentColor = System.Drawing.SystemColors.ActiveBorder;
             this.fileMenu.Name = "fileMenu";
-            this.fileMenu.Size = new System.Drawing.Size(57, 20);
+            this.fileMenu.Size = new System.Drawing.Size(66, 24);
             this.fileMenu.Text = "파일(&F)";
             // 
             // exitToolStripMenuItem
             // 
             this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
-            this.exitToolStripMenuItem.Size = new System.Drawing.Size(125, 22);
+            this.exitToolStripMenuItem.Size = new System.Drawing.Size(180, 24);
             this.exitToolStripMenuItem.Text = "끝내기(&X)";
             this.exitToolStripMenuItem.Click += new System.EventHandler(this.ExitToolsStripMenuItem_Click);
             // 
@@ -91,39 +92,39 @@
             this.MniRentMng});
             this.viewMenu.ForeColor = System.Drawing.Color.LavenderBlush;
             this.viewMenu.Name = "viewMenu";
-            this.viewMenu.Size = new System.Drawing.Size(59, 20);
+            this.viewMenu.Size = new System.Drawing.Size(67, 24);
             this.viewMenu.Text = "관리(&V)";
             // 
             // MniGenMng
             // 
             this.MniGenMng.Name = "MniGenMng";
-            this.MniGenMng.Size = new System.Drawing.Size(142, 22);
+            this.MniGenMng.Size = new System.Drawing.Size(153, 24);
             this.MniGenMng.Text = "책 장르 관리";
             this.MniGenMng.Click += new System.EventHandler(this.MniGenMng_Click);
             // 
             // MniBookMng
             // 
             this.MniBookMng.Name = "MniBookMng";
-            this.MniBookMng.Size = new System.Drawing.Size(142, 22);
+            this.MniBookMng.Size = new System.Drawing.Size(153, 24);
             this.MniBookMng.Text = "책 정보 관리";
             this.MniBookMng.Click += new System.EventHandler(this.MniBookMng_Click);
             // 
             // MniMembMng
             // 
             this.MniMembMng.Name = "MniMembMng";
-            this.MniMembMng.Size = new System.Drawing.Size(142, 22);
+            this.MniMembMng.Size = new System.Drawing.Size(153, 24);
             this.MniMembMng.Text = "회원 관리";
             this.MniMembMng.Click += new System.EventHandler(this.MniMembMng_Click);
             // 
             // toolStripMenuItem1
             // 
             this.toolStripMenuItem1.Name = "toolStripMenuItem1";
-            this.toolStripMenuItem1.Size = new System.Drawing.Size(139, 6);
+            this.toolStripMenuItem1.Size = new System.Drawing.Size(150, 6);
             // 
             // MniRentMng
             // 
             this.MniRentMng.Name = "MniRentMng";
-            this.MniRentMng.Size = new System.Drawing.Size(142, 22);
+            this.MniRentMng.Size = new System.Drawing.Size(153, 24);
             this.MniRentMng.Text = "대여 관리";
             this.MniRentMng.Click += new System.EventHandler(this.MniRentMng_Click);
             // 
@@ -134,13 +135,13 @@
             this.MniAbout});
             this.helpMenu.ForeColor = System.Drawing.Color.LavenderBlush;
             this.helpMenu.Name = "helpMenu";
-            this.helpMenu.Size = new System.Drawing.Size(72, 20);
+            this.helpMenu.Size = new System.Drawing.Size(79, 24);
             this.helpMenu.Text = "도움말(&H)";
             // 
             // MniAbout
             // 
             this.MniAbout.Name = "MniAbout";
-            this.MniAbout.Size = new System.Drawing.Size(180, 22);
+            this.MniAbout.Size = new System.Drawing.Size(180, 24);
             this.MniAbout.Text = "정보(&A)... ...";
             this.MniAbout.Click += new System.EventHandler(this.MniAbout_Click);
             // 

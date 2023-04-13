@@ -20,7 +20,6 @@ namespace wf13_bookrentalshop
 
         #region < 이벤트 핸들러 >
 
-
         private void FrmMain_Load(object sender, EventArgs e)
         {
             FrmLogin frm = new FrmLogin();

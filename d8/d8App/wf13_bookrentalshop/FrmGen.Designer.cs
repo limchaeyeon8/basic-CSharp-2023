@@ -60,8 +60,8 @@
             // splitContainer1.Panel2
             // 
             this.splitContainer1.Panel2.Controls.Add(this.groupBox1);
-            this.splitContainer1.Size = new System.Drawing.Size(986, 798);
-            this.splitContainer1.SplitterDistance = 399;
+            this.splitContainer1.Size = new System.Drawing.Size(986, 637);
+            this.splitContainer1.SplitterDistance = 398;
             this.splitContainer1.SplitterWidth = 5;
             this.splitContainer1.TabIndex = 0;
             // 
@@ -75,7 +75,7 @@
             this.dataGridView1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowTemplate.Height = 23;
-            this.dataGridView1.Size = new System.Drawing.Size(368, 679);
+            this.dataGridView1.Size = new System.Drawing.Size(367, 523);
             this.dataGridView1.TabIndex = 0;
             // 
             // groupBox1
@@ -89,7 +89,7 @@
             this.groupBox1.Controls.Add(this.label1);
             this.groupBox1.Location = new System.Drawing.Point(3, 102);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(638, 679);
+            this.groupBox1.Size = new System.Drawing.Size(557, 523);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "groupBox1";
@@ -157,7 +157,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 17F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(986, 798);
+            this.ClientSize = new System.Drawing.Size(986, 637);
             this.Controls.Add(this.splitContainer1);
             this.Font = new System.Drawing.Font("나눔고딕OTF", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
