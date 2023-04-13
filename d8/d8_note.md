@@ -29,6 +29,7 @@
 - 파일 읽으면 무조건 마지막에 Close();
 - StreamWriter()로 파일 생성
 
+
 # 심플 노트패드 만들기
     - Load / Save
     - Load 파일 경로 출력
@@ -46,12 +47,12 @@
     - Application.Exit();     // 전체 프로그램 종료
     - Environment.Exit(0);    // 가장 완전하게 프로그램 종료
 
-    - KeyPress 이벤트 핸들러 => 엔터키: KeyChar == 13
+### KeyPress 이벤트 핸들러 => 엔터키: KeyChar == 13
         - TxtUserId 텍스트박스 -> TxtPW.Focus();      // 패스워드입력위치로 이동
         - BtnLogin_Click(sender, e);          // 버튼클릭 이벤트핸들러 호출
 
 
-    - Validation check(입력검증) - 내용이 들어있으면 진행, 아니면 막음
+### Validation check(입력검증) - 내용이 들어있으면 진행, 아니면 막음
 
     - DB userTbl에서 정보확인 로그인 처리(로그인) 성공
     - DB 처리 (MySQL 라이브러리 가져다 넣기)
@@ -62,15 +63,15 @@
         - WHERE절 추가
     - @userId, @pswd 파라미터 할당
   
-    - 종료확인 메시지
-    ```cs
-    private void FrmMain_FormClosing(object sender, FormClosingEventArgs e)
+### 종료확인 메시지
+```cs
+private void FrmMain_FormClosing(object sender, FormClosingEventArgs e)
+    {
+        if (MessageBox.Show("종료하시렵니까?", "떼껄룩", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
         {
-            if (MessageBox.Show("종료하시렵니까?", "떼껄룩", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
-            {
-                e.Cancel = false;
-                Environment.Exit(0);
-            }
-            else { e.Cancel = true; }
+            e.Cancel = false;
+            Environment.Exit(0);
         }
-    ```
+        else { e.Cancel = true; }
+     }
+```
