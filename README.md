@@ -77,6 +77,7 @@ IoT 개발자 과정 C# 학습 리포지토리
     - DB 핸들링
 
 탐색기
+
 <img src="https://raw.githubusercontent.com/limchaeyeon8/basic-CSharp-2023/main/d6/expolorer.gif" width="700" />
 
 
@@ -108,6 +109,7 @@ IoT 개발자 과정 C# 학습 리포지토리
     - BookRentalShop DB 사용 WinForms 앱개발
 
 메모장
+
 <img src="https://raw.githubusercontent.com/limchaeyeon8/basic-CSharp-2023/main/d8/memo.gif" width="700" />
 
 Book Rental Shop (WIP)
