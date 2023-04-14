@@ -101,12 +101,12 @@ IoT 개발자 과정 C# 학습 리포지토리
 
 - C# 기본
     - 파일 핸들링
-    - 스레드 / 테스크
-    - 가비지 컬렉션
+    - 메모장 만들기 (파일 핸들링)
 
 - Win App
-    - 메모장 만들기
     - BookRentalShop DB 사용 WinForms 앱개발
+        - WinForms MDI 
+        - MySQL.Data Lib DB연동
 
 메모장
 
@@ -119,3 +119,12 @@ Book Rental Shop (WIP)
 
 
 ## 9일차
+
+#### [note9](https://github.com/limchaeyeon8/basic-CSharp-2023/blob/main/d9/d9_note.md)
+
+- C# 기본
+    - 스레드 / 테스크
+    - 가비지 컬렉션
+
+- Win App
+    - BookRentalShop DB 사용 WinForms 앱개발
