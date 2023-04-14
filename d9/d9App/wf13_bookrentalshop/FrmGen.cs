@@ -42,7 +42,7 @@ namespace wf13_bookrentalshop
                     SaveData();     // 데이터 저장 / 수정
 
                     RefreashData(); // 데이터 재조회(저장 후 바로 DB 표시)
-                    ClearInputs(); // 입력창 클리어
+                    ClearInputs();  // 입력창 클리어
 
                 }
 
