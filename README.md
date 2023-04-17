@@ -128,3 +128,13 @@ Book Rental Shop (WIP)
 
 - Win App
     - BookRentalShop DB 사용 WinForms 앱개발
+
+
+## 10일차
+
+#### [note10](https://github.com/limchaeyeon8/basic-CSharp-2023/blob/main/d10/d10_note.md)
+
+- Win App
+    - BookRentalShop 마무리
+
+- 코딩테스트
