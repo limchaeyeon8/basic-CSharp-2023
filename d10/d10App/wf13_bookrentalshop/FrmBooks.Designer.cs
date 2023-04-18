@@ -32,23 +32,23 @@
             this.splitContainer1 = new System.Windows.Forms.SplitContainer();
             this.DgvResult = new System.Windows.Forms.DataGridView();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.Price = new System.Windows.Forms.NumericUpDown();
+            this.DtpReleaseDate = new System.Windows.Forms.DateTimePicker();
+            this.CboDIviNames = new System.Windows.Forms.ComboBox();
             this.BtnDelete = new System.Windows.Forms.Button();
             this.BtnSave = new System.Windows.Forms.Button();
             this.BtnNew = new System.Windows.Forms.Button();
+            this.TxtISBN = new System.Windows.Forms.TextBox();
+            this.label7 = new System.Windows.Forms.Label();
             this.TxtAuthor = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
+            this.TxtNames = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.TxtBookIdx = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.TxtNames = new System.Windows.Forms.TextBox();
-            this.TxtISBN = new System.Windows.Forms.TextBox();
-            this.label7 = new System.Windows.Forms.Label();
-            this.CboDIviNames = new System.Windows.Forms.ComboBox();
-            this.TxtReleaseDate = new System.Windows.Forms.DateTimePicker();
-            this.Price = new System.Windows.Forms.NumericUpDown();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
             this.splitContainer1.Panel2.SuspendLayout();
@@ -96,6 +96,7 @@
             this.DgvResult.Size = new System.Drawing.Size(444, 447);
             this.DgvResult.TabIndex = 0;
             this.DgvResult.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.DgvResult_CellClick);
+            this.DgvResult.DataBindingComplete += new System.Windows.Forms.DataGridViewBindingCompleteEventHandler(this.DgvResult_DataBindingComplete);
             // 
             // groupBox1
             // 
@@ -103,7 +104,7 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.groupBox1.Controls.Add(this.Price);
-            this.groupBox1.Controls.Add(this.TxtReleaseDate);
+            this.groupBox1.Controls.Add(this.DtpReleaseDate);
             this.groupBox1.Controls.Add(this.CboDIviNames);
             this.groupBox1.Controls.Add(this.BtnDelete);
             this.groupBox1.Controls.Add(this.BtnSave);
@@ -121,16 +122,50 @@
             this.groupBox1.Controls.Add(this.label1);
             this.groupBox1.Location = new System.Drawing.Point(15, 93);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(445, 457);
+            this.groupBox1.Size = new System.Drawing.Size(444, 457);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "검색";
+            // 
+            // Price
+            // 
+            this.Price.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Price.Location = new System.Drawing.Point(140, 259);
+            this.Price.Maximum = new decimal(new int[] {
+            1000000,
+            0,
+            0,
+            0});
+            this.Price.Name = "Price";
+            this.Price.Size = new System.Drawing.Size(242, 25);
+            this.Price.TabIndex = 7;
+            this.Price.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            // 
+            // DtpReleaseDate
+            // 
+            this.DtpReleaseDate.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.DtpReleaseDate.Location = new System.Drawing.Point(140, 186);
+            this.DtpReleaseDate.Name = "DtpReleaseDate";
+            this.DtpReleaseDate.Size = new System.Drawing.Size(242, 25);
+            this.DtpReleaseDate.TabIndex = 5;
+            // 
+            // CboDIviNames
+            // 
+            this.CboDIviNames.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.CboDIviNames.FormattingEnabled = true;
+            this.CboDIviNames.Location = new System.Drawing.Point(140, 150);
+            this.CboDIviNames.Name = "CboDIviNames";
+            this.CboDIviNames.Size = new System.Drawing.Size(242, 25);
+            this.CboDIviNames.TabIndex = 4;
             // 
             // BtnDelete
             // 
             this.BtnDelete.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.BtnDelete.BackColor = System.Drawing.Color.MintCream;
-            this.BtnDelete.Location = new System.Drawing.Point(308, 308);
+            this.BtnDelete.Location = new System.Drawing.Point(307, 308);
             this.BtnDelete.Name = "BtnDelete";
             this.BtnDelete.Size = new System.Drawing.Size(75, 38);
             this.BtnDelete.TabIndex = 10;
@@ -142,7 +177,7 @@
             // 
             this.BtnSave.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.BtnSave.BackColor = System.Drawing.Color.MintCream;
-            this.BtnSave.Location = new System.Drawing.Point(227, 308);
+            this.BtnSave.Location = new System.Drawing.Point(226, 308);
             this.BtnSave.Name = "BtnSave";
             this.BtnSave.Size = new System.Drawing.Size(75, 38);
             this.BtnSave.TabIndex = 9;
@@ -154,7 +189,7 @@
             // 
             this.BtnNew.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.BtnNew.BackColor = System.Drawing.Color.MintCream;
-            this.BtnNew.Location = new System.Drawing.Point(146, 308);
+            this.BtnNew.Location = new System.Drawing.Point(145, 308);
             this.BtnNew.Name = "BtnNew";
             this.BtnNew.Size = new System.Drawing.Size(75, 38);
             this.BtnNew.TabIndex = 8;
@@ -162,13 +197,32 @@
             this.BtnNew.UseVisualStyleBackColor = false;
             this.BtnNew.Click += new System.EventHandler(this.BtnNew_Click);
             // 
+            // TxtISBN
+            // 
+            this.TxtISBN.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.TxtISBN.Location = new System.Drawing.Point(140, 224);
+            this.TxtISBN.Name = "TxtISBN";
+            this.TxtISBN.Size = new System.Drawing.Size(242, 25);
+            this.TxtISBN.TabIndex = 6;
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("나눔고딕OTF", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.label7.Location = new System.Drawing.Point(78, 261);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(36, 17);
+            this.label7.TabIndex = 0;
+            this.label7.Text = "가격";
+            // 
             // TxtAuthor
             // 
             this.TxtAuthor.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.TxtAuthor.Location = new System.Drawing.Point(140, 75);
             this.TxtAuthor.Name = "TxtAuthor";
-            this.TxtAuthor.Size = new System.Drawing.Size(243, 25);
+            this.TxtAuthor.Size = new System.Drawing.Size(242, 25);
             this.TxtAuthor.TabIndex = 2;
             // 
             // label6
@@ -211,6 +265,15 @@
             this.label3.TabIndex = 0;
             this.label3.Text = "책제목";
             // 
+            // TxtNames
+            // 
+            this.TxtNames.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.TxtNames.Location = new System.Drawing.Point(140, 112);
+            this.TxtNames.Name = "TxtNames";
+            this.TxtNames.Size = new System.Drawing.Size(242, 25);
+            this.TxtNames.TabIndex = 3;
+            // 
             // label2
             // 
             this.label2.AutoSize = true;
@@ -225,82 +288,22 @@
             // 
             this.TxtBookIdx.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.TxtBookIdx.BackColor = System.Drawing.Color.LightBlue;
             this.TxtBookIdx.Location = new System.Drawing.Point(140, 37);
             this.TxtBookIdx.Name = "TxtBookIdx";
-            this.TxtBookIdx.Size = new System.Drawing.Size(243, 25);
+            this.TxtBookIdx.ReadOnly = true;
+            this.TxtBookIdx.Size = new System.Drawing.Size(242, 25);
             this.TxtBookIdx.TabIndex = 1;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("나눔고딕OTF", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.label1.Location = new System.Drawing.Point(50, 40);
+            this.label1.Location = new System.Drawing.Point(78, 40);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(64, 17);
+            this.label1.Size = new System.Drawing.Size(36, 17);
             this.label1.TabIndex = 0;
-            this.label1.Text = "도서번호";
-            // 
-            // TxtNames
-            // 
-            this.TxtNames.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.TxtNames.Location = new System.Drawing.Point(140, 112);
-            this.TxtNames.Name = "TxtNames";
-            this.TxtNames.Size = new System.Drawing.Size(243, 25);
-            this.TxtNames.TabIndex = 3;
-            // 
-            // TxtISBN
-            // 
-            this.TxtISBN.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.TxtISBN.Location = new System.Drawing.Point(140, 224);
-            this.TxtISBN.Name = "TxtISBN";
-            this.TxtISBN.Size = new System.Drawing.Size(243, 25);
-            this.TxtISBN.TabIndex = 6;
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("나눔고딕OTF", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.label7.Location = new System.Drawing.Point(78, 261);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(36, 17);
-            this.label7.TabIndex = 0;
-            this.label7.Text = "가격";
-            // 
-            // CboDIviNames
-            // 
-            this.CboDIviNames.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.CboDIviNames.FormattingEnabled = true;
-            this.CboDIviNames.Location = new System.Drawing.Point(140, 150);
-            this.CboDIviNames.Name = "CboDIviNames";
-            this.CboDIviNames.Size = new System.Drawing.Size(243, 25);
-            this.CboDIviNames.TabIndex = 4;
-            // 
-            // TxtReleaseDate
-            // 
-            this.TxtReleaseDate.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.TxtReleaseDate.Location = new System.Drawing.Point(140, 186);
-            this.TxtReleaseDate.Name = "TxtReleaseDate";
-            this.TxtReleaseDate.Size = new System.Drawing.Size(243, 25);
-            this.TxtReleaseDate.TabIndex = 5;
-            // 
-            // Price
-            // 
-            this.Price.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.Price.Location = new System.Drawing.Point(140, 259);
-            this.Price.Maximum = new decimal(new int[] {
-            1000000,
-            0,
-            0,
-            0});
-            this.Price.Name = "Price";
-            this.Price.Size = new System.Drawing.Size(243, 25);
-            this.Price.TabIndex = 7;
-            this.Price.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.label1.Text = "번호";
             // 
             // FrmBooks
             // 
@@ -346,7 +349,7 @@
         private System.Windows.Forms.TextBox TxtISBN;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.TextBox TxtNames;
-        private System.Windows.Forms.DateTimePicker TxtReleaseDate;
+        private System.Windows.Forms.DateTimePicker DtpReleaseDate;
         private System.Windows.Forms.ComboBox CboDIviNames;
         private System.Windows.Forms.NumericUpDown Price;
     }
