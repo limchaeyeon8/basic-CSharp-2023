@@ -139,7 +139,5 @@ Book Rental Shop (WIP)
 
 - 코딩테스트
 
-<!--
 10일차 책대여점 프로그램
-<img src="https://raw.githubusercontent.com/limchaeyeon8/basic-CSharp-2023/main/d8/brs.gif" width="700" />
--->
+<img src="https://raw.githubusercontent.com/limchaeyeon8/basic-CSharp-2023/main/d10/d10App/brs.gif" width="1000" />
